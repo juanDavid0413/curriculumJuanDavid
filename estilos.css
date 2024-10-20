@@ -1,0 +1,38 @@
+header {
+    background: #35424a;
+    color: white;
+    padding: 20px;
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.profile-photo {
+    width: 20%; /* Ancho de la foto */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-right: 100px; /* Espacio entre la imagen y el texto */
+}
+
+.header-text {
+    flex-grow: 1; /* Hace que el texto ocupe el espacio restante */
+}
+
+.menu1 {
+    display: flex; /* Habilita flexbox */
+    justify-content: space-between; /* Espacio entre los contenedores */
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+.menu2 {
+    flex: 1; /* Cada contenedor ocupará el mismo espacio */
+    margin: 0 10px; /* Espacio entre los contenedores */
+    padding: 20px; /* Espacio interno */
+    background-color: #e0e0e0; /* Color de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto */
+}
+
