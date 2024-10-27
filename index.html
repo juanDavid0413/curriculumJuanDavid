@@ -3,32 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rakkas&display=swap" rel="stylesheet">
     <title>Juan David</title>
 </head>
-<body>
+<body class="anton-regular">
     <header>
-        <div class="header-container">
-            <img src="imagenes/juanfoto.jpg" alt="Tu Nombre" class="profile-photo">
-            <div class="header-text">
-                <h1>Juan David Castañeda</h1>
-                <h2>Estudiante de Análisis y Desarrollo de Software</h2>
-                <p>
-                    <strong>Correo:</strong> ju99da04ca13va@gmail.com | 
-                    <strong>Teléfono:</strong> 3045256826 | 
-                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">Tu Perfil</a>
-                </p>
-                <p><strong>Ubicación:</strong> Medellin, Colombia</p>
-                <p>Buscando oportunidades en desarrollo de software y tecnología.</p>
-            </div>
+        <div>
+        <h1>Juan David Castañeda</h1>
+        <h3>Estudiante De Analisis & Desarrollo De Software</h3>
+        </div>
+        <div >
+            <nav class="div-menu">
+                <ul class="menu">
+                    <li><a>Menu</a></li>
+                    <li>
+                        <a class="dropdown-toggle">Contactar</a>
+                        <ul class="submenu">
+                            <li><a href="https://wa.me/3045256826"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+                            <li><a href="mailto:ju99da04ca13va@gmail.com"><i class="fa-solid fa-at"></i> Email</a></li>
+                            <li><p id="phone" style="cursor: pointer;">3045256826</p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="archivos/hojaDeVidaLinkedin.pdf" download="curriculumJuanDavidCast.pdf">Descargar PDF</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <div class="menu1">
-        <div class="menu2"></div>
-        <div class="menu2"></div>
-        <div class="menu2"></div>
+    <div class="contenedor-principal">
+        <div class="bloque-izq">
+            <div class="parte-fotoPerfil">
+                <img src="imagenes/juanfoto.jpg" alt="Juan David Foto" class="foto">
+                    <div class="ubicacion"><i class="fa-solid fa-location-dot"></i> Medellin, Colombia</div>
+            </div>
+            <div class="parteiz">
+                <h2>Contacto:</h2>
+                <h4><a href="https://wa.me/3045256826"><i class="fa-brands fa-whatsapp"></i> Whatsapp</h4></a>               
+                <h4><a href="mailto:ju99da04ca13va@gmail.com"><i class="fa-solid fa-at"></i> Email</h4></a>
+                <h4><a href="https://github.com/juanDavid0413"><i class="fa-brands fa-github"></i>GitHub</h4></a>
+            </div>
+            <div class="parteiz">
+                <h3>Habilidades Basicas En Tecnologias Como:</h3>
+                <div class="iconos-tecnologias">
+                    <i class="fa-brands fa-python fa-3x"></i>
+                    <i class="fa-brands fa-html5 fa-3x"></i>
+                    <i class="fa-brands fa-css3 fa-3x"></i>
+                    <i class="fa-solid fa-database fa-3x"></i>
+                    <i class="fa-brands fa-js fa-3x"></i>
+                    <i class="fa-brands fa-github fa-3x"></i>
+                </div>
+            </div>
+            <div class="parteiz">
+                <h3>Ver Perfil En LinkedIn</h3>
+                <h4><a href="https://www.linkedin.com/in/juan-david-casta%C3%B1eda-v-5943742b6/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></h4>
+            </div>
+            <a href="archivos/hojaDeVidaLinkedin.pdf" download="curriculumJuanDavidCast.pdf"><div class="parteiz">
+                <h3>Click para descargar mi curriculum en PDF</h3></a>
+            </div> 
+        </div>
+        <div class="bloque-der">
+            <div class="parte">
+                <h2>Sobre Mi:</h2>                             
+                <p>Soy una persona apasionada por la tecnología y la innovación, con un fuerte deseo de aprender y crecer en el campo del desarrollo de software. <br><br>Me destaco por mi capacidad para adaptarme a diferentes entornos laborales y colaborar eficazmente con equipos multidisciplinarios. Me considero una persona altamente comprometida con mis responsabilidades, siempre buscando mejorar y aportar valor en cada proyecto en el que participo. Estoy abierto a nuevas ideas y enfoques, lo que me permite abordar los desafíos de manera creativa y efectiva. Mi capacidad de aprendizaje rápido me permite adquirir nuevas habilidades y tecnologías con facilidad, y estoy entusiasmado por contribuir a soluciones que marquen la diferencia en la vida de las personas. <br><br>Busco oportunidades para aplicar mis conocimientos y crecer profesionalmente.</p>
+            </div>
+            <div class="proyectos">
+                <div><a href=""></a></div> 
+            </div>
+            <div class="parte">
+                <h2>Educacion:</h2>
+                <ul>
+                    <li>Tecnico en Analisis & Desarrollo de Software. <br>Censa - Actualidad</li>
+                    <li>Bachiller Academico. <br>Corporacion Cendi - Julio 2023</li>
+                    <li>Mantenimiento Preventivo De Motocicletas. <br>SENA - 2019</li>
+                </ul>
+            </div>
+            <div class="parte">
+                <h2>Habilidades:</h2>
+                <ul>
+                    <li>Liderazgo</li>
+                    <li>Facil Aprendizaje</li>
+                    <li>Trabajo En Equipo</li>
+                    <li>Comunicacion</li>
+                    <li>Resolucion De Problemas</li>
+                    <li>Compromiso</li>
+                </ul>
+            </div>
+            
+            <div class="parte">
+            <h2>Mis Proyectos:</h2>
+            <div  id="misExperiencias">
+                <div class="col-md-3">
+                    <div class="card mb-3 h-100 service-card" class="card">
+                        <img src="imagenes/paramedic.jpg" class="card-img-top" alt="paramedicTours">
+                        <div class="card-body">
+                            <h5 class="card-title">Paramedic Tours SAS</h5>
+                            <a href="https://paramedictour.netlify.app/"><button class="btn btn-primary">Ir a: paramedicTours</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 h-100 service-card " class="card">
+                        <img src="imagenes/code.jpg" class="card-img-top" alt="kiosko tecnologico">
+                        <div class="card-body">
+                            <h5 class="card-title">Kiosko Tecnologico</h5>
+                            <a href="https://github.com/juanDavid0413/kiosko_tecnologico.git"><button class="btn btn-primary">Ver Repositorio</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 h-100 service-card " class="card">
+                        <img src="imagenes/code.jpg" class="card-img-top" alt="mi blog">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Blog</h5>
+                            <a href="https://github.com/juanDavid0413/miblog.git"><button class="btn btn-primary">Ver Repositorio</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
-    
-    
+    <footer class="bg-gr text-center p-4">
+        <p>© 2024 Desarrollado Por: Juan David Castañeda. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

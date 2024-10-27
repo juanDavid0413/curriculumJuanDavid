@@ -1,38 +1,158 @@
-header {
-    background: #35424a;
-    color: white;
-    padding: 20px;
-    text-align: left; /* Alineación a la izquierda */
-}
-
-.header-container {
+header{
+    justify-content:space-between;
     display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
+    background-color: #cfc8c8;
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
 }
 
-.profile-photo {
-    width: 20%; /* Ancho de la foto */
-    height: auto; /* Mantiene la proporción */
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    margin-right: 100px; /* Espacio entre la imagen y el texto */
+footer {
+    background-color: #cfc8c8;
 }
 
-.header-text {
-    flex-grow: 1; /* Hace que el texto ocupe el espacio restante */
+.contenedor-principal {
+    background-color: #cfc8c8;
+    display: flex;
+    justify-content: center;
 }
 
-.menu1 {
-    display: flex; /* Habilita flexbox */
-    justify-content: space-between; /* Espacio entre los contenedores */
-    margin: 20px 0; /* Espacio superior e inferior */
+.bloque-izq {
+    height: auto;
+    width: 30%;
+    background-image: url('imagenes/fondoDeImagen.jpg'); 
+    margin: 5px; 
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-.menu2 {
-    flex: 1; /* Cada contenedor ocupará el mismo espacio */
-    margin: 0 10px; /* Espacio entre los contenedores */
-    padding: 20px; /* Espacio interno */
-    background-color: #e0e0e0; /* Color de fondo */
-    border-radius: 5px; /* Bordes redondeados */
-    text-align: center; /* Centra el texto */
+.bloque-der {
+    justify-content: center;
+    width: 70%; 
+    background-image: url('imagenes/fondoDeImagen.jpg');
+    margin: 5px 5px; 
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
+
+.parte-fotoPerfil {
+    text-align: center;
+    background-image: url('imagenes/fondoDeImagen.jpg');
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.foto {
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-right: 100px;
+}
+
+.parte {
+    justify-content: center;
+    height: max-content;
+    text-align: center;
+    background-color: #cfc8c8;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.parteiz {
+    height: max-content;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ubicacion {
+    background-color: rgb(207, 193, 193);
+}
+
+#misExperiencias {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: 10px
+}
+
+.col-md-3 {
+    background-color: #b1afaf;
+    margin: 15px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 14px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #575757;
+}
+
+.submenu {
+    display: none; 
+    position: absolute;
+    background-color: #ffffff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    width: 150px;
+}
+
+.submenu li a {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.submenu li a:hover {
+    background-color: #575757;
+}
+
+.div-menu {
+    width: 100%;
+    justify-content: right;
+}
+
+
+button {
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
